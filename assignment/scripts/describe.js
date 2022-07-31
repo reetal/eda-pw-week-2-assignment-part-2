@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We created a variable called name and set it to the value 'Dane' as a string. 
+// then we check if the name is Mary. If it is Mary then
+// we console.log 'Hi Mary!'.
+// Otherwise, we console.log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We declare a variable called secret.
+// We also declare a variable named code and set it to a number value of 123.
+// We then check if the code strictly equals to 123. So if code is strictly equal to 123,
+// then we assign a string value 'super' to the variable named secret and code * 2 to var code to be excuted as such.
+// We check if the code is greater than 250. If it is true then set the secret value to duper,
+// otherwise, we console.log 'secret'.
 
 //CODE
 /*
@@ -70,12 +72,18 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called isStudent and set it a boolean value true. 
+// We create a variable named age and set it 34.
+// We create a variable called zip and set it to 55407.
+// Then we evaluate them with a conditional statment as follow:
+// If isStudent equals to true and the zip greater than 8000 then we console.log `You're a student on the West Coast!`.
+// Otherwise if isStudent is false or age less than 30, we console.log 'What are your hobbies?'.
+// And otherwise if the isStudent is true then we console.log 'Welcome to Prime!'.
+// Otherwise,we console.log 'How about the weather? .
+
 
 //CODE
+
 /*
 let isStudent = true;
 let age = 34;
@@ -136,7 +144,11 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+
+// FIX - colorTwo-- set to purple, it was missed in the code. so
+//colorTwo = 'purple'; should be added
 }
+
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -146,7 +158,8 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// FIX --logical operator--||, the instruction asks for a logical AND operator 
+// so it should be (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,8 +172,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// FIX - minAge <= age-- though this works, it could have be written as age >= minAge to match the instruction given above.
 if(minAge <= age) {
+// 
   console.log('no entry');
 } else {
   console.log('enter');
