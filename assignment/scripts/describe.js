@@ -172,9 +172,9 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-// FIX - minAge <= age-- though this works, it could have be written as age >= minAge to match the instruction given above.
+// FIX - minAge <= age-- though this works, it could have been written as age >= minAge to match the instruction given above.
 if(minAge <= age) {
-// 
+// FIX- per instruction we don't need console.log('no entry'); instead it could be console.log('enter'); by ommiting the else part.
   console.log('no entry');
 } else {
   console.log('enter');
