@@ -138,6 +138,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX- colorOne -- per instruction colorOne and should be assigned a 'blue'. So it should be 
+let colorOne = 'blue';
+// Fix - colorTwo - the value of it was blue, However, it should be red as follow:
+let colorTwo = 'red';
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
